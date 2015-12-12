@@ -1,0 +1,30 @@
+!SESSION 2015-12-12 09:56:44.096 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-12 09:57:02.695
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-12 09:57:02.695
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lab 2'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-12-12 09:59:21.446
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Rahul1\Project1\bin C:\Users\Lab 2\Downloads\selenium-server-standalone-2.48.2.jar C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\testng.jar C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\jcommander.jar C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\bsh-2.0b4.jar C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\snakeyaml.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49461 -d D:\Rahul1\Project1\test-output C:\Users\LAB2~1\AppData\Local\Temp\testng-eclipse--1456180159\testng-customsuite.xml
+java -ea -classpath D:\Rahul1\Project1\bin:C:\Users\Lab 2\Downloads\selenium-server-standalone-2.48.2.jar:C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\testng.jar:C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\jcommander.jar:C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\bsh-2.0b4.jar:C:\eclipse\plugins\org.testng.eclipse_6.9.10.201512020421\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 49461 -d D:\Rahul1\Project1\test-output C:\Users\LAB2~1\AppData\Local\Temp\testng-eclipse--1456180159\testng-customsuite.xml
