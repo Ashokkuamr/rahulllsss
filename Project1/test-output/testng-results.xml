@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12484" started-at="2015-12-12T04:29:23Z" finished-at="2015-12-12T04:29:35Z">
+  <suite name="Suite" duration-ms="11851" started-at="2015-12-12T04:54:18Z" finished-at="2015-12-12T04:54:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12484" started-at="2015-12-12T04:29:23Z" finished-at="2015-12-12T04:29:35Z">
+    <test name="Test" duration-ms="11851" started-at="2015-12-12T04:54:18Z" finished-at="2015-12-12T04:54:30Z">
+      <class name="package1.LoginAdmin">
+        <test-method status="PASS" signature="loginAdmin()[pri:0, instance:package1.LoginAdmin@29386c7]" name="loginAdmin" duration-ms="5534" started-at="2015-12-12T10:24:18Z" finished-at="2015-12-12T10:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+      </class> <!-- package1.LoginAdmin -->
       <class name="package1.Login">
-        <test-method status="PASS" signature="test1()[pri:0, instance:package1.Login@452d4b9c]" name="test1" duration-ms="12450" started-at="2015-12-12T09:59:23Z" finished-at="2015-12-12T09:59:35Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:package1.Login@3927ce5e]" name="test1" duration-ms="6262" started-at="2015-12-12T10:24:23Z" finished-at="2015-12-12T10:24:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
       </class> <!-- package1.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
